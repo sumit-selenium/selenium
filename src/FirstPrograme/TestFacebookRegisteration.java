@@ -39,7 +39,7 @@ public class TestFacebookRegisteration
 		
 		driver.findElement(By.xpath(".//*[@id='reg_pages_msg']/a")).click();
 		driver.navigate().back();
-		driver.quit();
+		//driver.quit();
 		
 	}
 
